@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    text-indent: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: #1a2eda;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    outline: none;
+}
+
+.fields {
+    width: 100%;
+}
+
+.window {
+    margin: auto;
+    margin-top: 20px;
+    width: 700px;
+    height: 500px;
+    border: 2px solid #c2c6b6;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.chat-message {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+#output, #feedback {
+    margin-left: 10px;
+}
