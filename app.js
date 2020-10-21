@@ -9,11 +9,7 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
-<<<<<<< HEAD
 const server = app.listen(proccess.env.PORT || 3000, () => {
-=======
-const server = app.listen(80, () => {
->>>>>>> de782a6e6e973db2cd63c7a4d8ba851b376262c9
     console.log('Server Running')
 })
 
