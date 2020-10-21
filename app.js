@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
-const server = app.listen(proccess.env.PORT || 3000, () => {
+const server = app.listen(process.env.PORT || 3000, () => {
     console.log('Server Running')
 })
 
