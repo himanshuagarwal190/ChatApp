@@ -4,7 +4,7 @@ const message = document.getElementById('message');
 const send = document.getElementById('send');
 const feedback = document.getElementById('feedback')
 
-const socket = io.connect('http://localhost:3000');
+const socket = io.connect('https://a-chatting-app.herokuapp.com');
 
 
 send.addEventListener('click', () =>{
