@@ -3,23 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat APP</title>
     <link rel="stylesheet" href="/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+    <title>Chat App</title>
 </head>
 <body>
-    <h1>A Simple Chat APP</h1>
-    <div class="window">
-        <div class="chat-message">
-            <div id="output"></div>
-            <div id="feedback"></div>
-        </div>
-        <div class='fields'>
-            <input type="text" id="handle" placeholder="Your Name">
-            <input type="text" id="message" placeholder="Enter a message">
-            <button id="send">Send</button>
+    <div class="content">
+        <div>
+            <p>Welcome to Chat App</p>
+            <form action="/room" method="POST">
+                <input type="text" placeholder="Enter your Name" class="username" name="username" required>
+                <input type="text" placeholder="Enter Room Name" class="roomname" name="roomname" required>
+                <input type="submit" value="Enter">
+            </form>
         </div>
     </div>
-    <script src="/chat.js"></script>
 </body>
 </html>
